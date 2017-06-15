@@ -5,5 +5,4 @@ build: Makefile sources/index.rst sources/extra.css sources/conf.py sources/post
 
 clean:
 	rm .buildinfo index.html genindex.html objects.inv search.html searchindex.js
-	rm posts/*.html
-	rm -rf .doctrees _sources _static
+	rm -rf .doctrees _sources _static posts

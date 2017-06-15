@@ -9,4 +9,4 @@ install:
   - python -m pip install --upgrade sphinx sphinx_rtb_theme
 
 script:
-  - python -m sphinx -W -a -E -b html -n . _build
+  - python -m sphinx -W -a -E -b html -n sources .
