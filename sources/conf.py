@@ -8,7 +8,7 @@ import sphinx_rtb_theme
 source_suffix = '.rst'
 master_doc = 'index'
 copyright = u'2017'
-exclude_patterns = ['_build', 'README.rst']
+exclude_patterns = ['README.rst']
 
 pygments_style = 'tango'
 html_theme = 'sphinx_rtb_theme'
