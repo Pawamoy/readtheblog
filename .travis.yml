@@ -1,0 +1,12 @@
+jobs:
+  include:
+    - os: linux
+      dist: trusty
+      language: python
+      python: "3.5"
+
+install:
+  - python -m pip install --upgrade sphinx sphinx_rtb_theme
+
+script:
+  - python -m sphinx -W -a -E -b html -n . _build
